@@ -1,2 +1,13 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# ToDo список на Dart
+
+Консольное приложение для управления списком задач. Демонстрирует классы, конструкторы, методы, геттеры и статические поля в Dart.
+
+## Автор
+
+Куксова Софья, ИСП-243
+
+## Как запустить
+
+1. Клонировать репозиторий:
+   ```bash
+   git clone https://github.com/lieute049/Dart_Lab2.git
