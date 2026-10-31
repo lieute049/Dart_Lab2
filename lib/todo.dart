@@ -3,5 +3,15 @@ class Todo {
   String title;
   bool isDone;
 
-  Todo(this.id, this.title) : isDone = false;
+  Todo({required this.id, required this.title}) : isDone = false;
+
+  @override
+  String toString() {
+    String mark = isDone ? '[x]' : '[ ]';
+    return '$mark $id. $title';
+  }
+
+  void complete() {
+    isDone = true;
+  }
 }
